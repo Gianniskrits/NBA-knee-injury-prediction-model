@@ -12,7 +12,7 @@ Injury Dataset: Scraped from Pro Sports Transactions, filtered for keywords like
 In-Game Statistics Dataset: Scraped from basketball-reference.com, featuring continuous predictors like minutes played, shot attempts, rebounds, and fouls.
 After substantial data cleaning, standardizing team names, and linking the datasets, the final dataset contained 5,010 player records. Of these records, 234 (4.7%) represented season-ending knee injuries.This data set is included in this repository. Note that the data cleaning process was not done in python so it isnt included in the project.
 The pre-processed data sets can be found on kaggle using the links: 
-nab-injuries 2010-2020: https://www.kaggle.com/datasets/ghopkins/nba-injuries-2010-2018
+nba-injuries 2010-2020: https://www.kaggle.com/datasets/ghopkins/nba-injuries-2010-2018
 nba stats 2010-2020: https://www.kaggle.com/datasets/chrisgabriel/nba-stats-20102020
  
 Methodology:
