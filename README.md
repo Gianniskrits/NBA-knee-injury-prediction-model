@@ -16,7 +16,8 @@ nba-injuries 2010-2020: https://www.kaggle.com/datasets/ghopkins/nba-injuries-20
 nba stats 2010-2020: https://www.kaggle.com/datasets/chrisgabriel/nba-stats-20102020
  
 Methodology:
-This project followed a 7-step framework for developing valid clinical prediction models.Language & Tools: Python-> scikit-learn, pandas, numpy, matplotlib, and seaborn.
+This project followed a 7-step framework for developing valid clinical prediction models.
+Language & Tools: Python-> scikit-learn, pandas, numpy, matplotlib, and seaborn.
 Algorithm: Logistic Regression was used to predict the binary outcome of severe knee injury. The model converts log-odds into probabilities using a sigmoid function:
 P = 1/{1 + e^(-z)} (Where z is the linear combination of predictor variables) 
 Handling Multicollinearity:A correlation matrix was used to identify highly correlated predictors. To prevent inflated coefficient variance and overfitting, collinear variables like defensive rebounds, offensive rebounds, and total field goal attempts were dropped from the final model.
