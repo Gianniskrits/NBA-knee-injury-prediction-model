@@ -43,5 +43,7 @@ Clone this repository to your local machine.Ensure you have Python installed, th
 pip install -r requirements.txt
 Run the Jupyter Notebook model.ipynb to view the data processing, model training, and visualizations.
 
+If you would like more information about this project, there are more in-depth and analytical explanations in the file titled "Development and internal validation of a machine learning model to predict severe knee injuries in NBA players.pdf". This pdf goes over every method and tool used in the cration of this project.
+
 License:
 This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
